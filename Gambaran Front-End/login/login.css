@@ -1,3 +1,10 @@
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .container-fluid {
     display: flex;
     justify-content: center;
@@ -17,8 +24,7 @@
 
 .buttons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .btn {
@@ -27,9 +33,14 @@
     text-align: center;
 }
 
-.w3-tangerine {
-    font-family: "Tangerine", serif;
-    font-size: 20px;
+.smalls {
     text-align: center;
-    font-weight: bold;
+}
+
+a {
+    color: rgb(35, 199, 35);
+}
+
+a:hover {
+    color: green;
 }

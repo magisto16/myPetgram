@@ -22,6 +22,10 @@
     padding: 20px;
 }
 
+.input-group-text {
+    width: 40px;
+}
+
 .buttons {
     display: flex;
     justify-content: center;

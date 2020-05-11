@@ -1,0 +1,50 @@
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 10%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+}
+
+.input-group-text {
+    width: 40px;
+}
+
+.smalls {
+    text-align: center;
+}
+
+a {
+    color: rgb(39, 179, 39);
+}
+
+a:hover {
+    color: green;
+}

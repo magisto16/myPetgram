@@ -1,0 +1,35 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 10%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn {
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+}
+
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}

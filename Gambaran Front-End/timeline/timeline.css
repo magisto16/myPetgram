@@ -1,3 +1,7 @@
+body {
+    padding: 5%;
+}
+
 /* NAVIGATION BAR */
 .w3-tangerine {
     font-family: "Tangerine", serif;
@@ -29,21 +33,53 @@ p {
     color: #aaa;
 }
 
-/* CONTENT TIMELINE */
-img {
-    margin: 5%;
-    height: 200px;
-    width: 200px;
-}
-
-.container-fluid {
-    padding: 5%;
+/* CONTENT TIMELINE MAIN */
+.profile-img img {
+    height: 150px;
+    width: 150px;
 }
 
 .main {
-    background-color: saddlebrown;
+    padding: 15px;
 }
 
-.sub-main {
-    background-color: royalblue;
+.first-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.first-desc p {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.second-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.second-desc p {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.third-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.third-desc p {
+    font-size: 20px;
+}
+
+/* CONTENT TIMELINE SUB-MAIN */
+.sub-main ul li a {
+    color: white;
+}
+
+.posts {
+    margin-top: 15px;
 }

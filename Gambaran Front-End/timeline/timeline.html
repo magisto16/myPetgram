@@ -16,7 +16,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
         <a class="navbar-brand" href="#">
             <span class="w3-container w3-tangerine">
                 <p class="w3-xxxlarge">myPetgram</p>
@@ -35,6 +37,9 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Timeline</a>
                 </li>
                 <li class="nav-item">
@@ -42,8 +47,43 @@
                 </li>
             </ul>
         </div>
-
     </nav>
+
+    <!-- TIMELINE CONTENT -->
+    <div class="container-fluid">
+
+        <div class="row main">
+            <img src="user.jpg" class="mx-auto d-block rounded-circle">
+
+            <nav class="col-md-12 navbar navbar-light bg-success justify-content-end">
+                <form class="form-inline">
+                    <p style="margin-right: 10px;">1.099 people following her</p>
+                    <button class="btn btn-dark" type="submit">Add Friend</button>
+                </form>
+            </nav>
+        </div>
+
+
+        <br>
+
+
+        <div class="row sub-main">
+            <div class="col-md-2 user">
+                <textarea></textarea>
+            </div>
+
+            <div class="col-md-8 user-tl">
+                <textarea></textarea>
+                <textarea></textarea>
+                <textarea></textarea>
+                <textarea></textarea>
+            </div>
+
+            <div class="col-md-2 user-activity">
+                <textarea></textarea>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

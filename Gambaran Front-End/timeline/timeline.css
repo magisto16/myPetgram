@@ -1,3 +1,4 @@
+/* NAVIGATION BAR */
 .w3-tangerine {
     font-family: "Tangerine", serif;
     font-size: 20px;
@@ -26,4 +27,23 @@ p {
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+
+/* CONTENT TIMELINE */
+img {
+    margin: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+.container-fluid {
+    padding: 5%;
+}
+
+.main {
+    background-color: saddlebrown;
+}
+
+.sub-main {
+    background-color: royalblue;
 }

@@ -34,6 +34,11 @@ p {
 }
 
 /* CONTENT TIMELINE MAIN */
+.profile-img {
+    text-align: center;
+    display: block;
+}
+
 .profile-img img {
     height: 150px;
     width: 150px;
@@ -57,7 +62,9 @@ p {
 .second-desc {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
     align-items: baseline;
+    margin-bottom: 15px;
 }
 
 .second-desc p {
@@ -82,4 +89,8 @@ p {
 
 .posts {
     margin-top: 15px;
+}
+
+.sub-main .navbar {
+    text-align: center;
 }

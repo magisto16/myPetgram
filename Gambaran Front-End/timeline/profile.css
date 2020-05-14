@@ -33,7 +33,7 @@ p {
     color: #aaa;
 }
 
-/* CONTENT TIMELINE MAIN */
+/* CONTENT PROFILE MAIN */
 .profile-img {
     text-align: center;
     display: block;
@@ -82,7 +82,7 @@ p {
     font-size: 20px;
 }
 
-/* CONTENT TIMELINE SUB-MAIN */
+/* CONTENT PROFILE SUB-MAIN */
 #post {
     display: block;
 }

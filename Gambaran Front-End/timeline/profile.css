@@ -91,6 +91,12 @@ p {
     display: none;
 }
 
+.friend-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .sub-main ul li a {
     color: white;
 }

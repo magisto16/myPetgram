@@ -83,6 +83,14 @@ p {
 }
 
 /* CONTENT TIMELINE SUB-MAIN */
+#post {
+    display: block;
+}
+
+#friend {
+    display: none;
+}
+
 .sub-main ul li a {
     color: white;
 }

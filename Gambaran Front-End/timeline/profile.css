@@ -102,3 +102,9 @@ p {
 .sub-main .navbar {
     text-align: center;
 }
+
+.component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

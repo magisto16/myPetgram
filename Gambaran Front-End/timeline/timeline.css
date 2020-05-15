@@ -1,0 +1,83 @@
+body {
+    padding: 5%;
+}
+
+/* NAVIGATION BAR */
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-control {
+    border-radius: 50px;
+    height: 10%;
+    padding-left: 2.375rem;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* CONTENT PROFILE MAIN */
+.profile-img {
+    text-align: center;
+    display: block;
+}
+
+.profile-img img {
+    height: 150px;
+    width: 150px;
+}
+
+.main {
+    padding: 15px;
+}
+
+.first-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.first-desc p {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.second-desc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.second-desc p {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.third-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.third-desc p {
+    font-size: 20px;
+}

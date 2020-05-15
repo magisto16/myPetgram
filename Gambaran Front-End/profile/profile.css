@@ -114,3 +114,12 @@ p {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.component .like-comm i {
+    margin-right: 15px;
+}
+
+.rounded-circle {
+    height: 40px;
+    width: 40px;
+}

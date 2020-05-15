@@ -45,10 +45,6 @@ p {
 }
 
 /* SECTION ROW TIMELINE */
-.posting {
-    height: 1000px;
-}
-
 .component {
     display: flex;
     flex: row;

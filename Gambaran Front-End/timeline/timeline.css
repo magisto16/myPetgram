@@ -81,3 +81,10 @@ p {
 .third-desc p {
     font-size: 20px;
 }
+
+/* SECTION CSS */
+.posting {
+    height: 1000px;
+}
+
+.recommend {}

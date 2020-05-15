@@ -32,6 +32,18 @@ p {
     color: #aaa;
 }
 
+/* PROFILE IMG */
+.rounded-circle {
+    height: 40px;
+    width: 40px;
+}
+
+.profile-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* SECTION ROW TIMELINE */
 .posting {
     height: 1000px;

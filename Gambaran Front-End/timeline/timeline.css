@@ -32,58 +32,21 @@ p {
     color: #aaa;
 }
 
-/* CONTENT PROFILE MAIN */
+/* PROFILE IMG */
+.rounded-circle {
+    height: 40px;
+    width: 40px;
+}
+
 .profile-img {
-    text-align: center;
-    display: block;
-}
-
-.profile-img img {
-    height: 150px;
-    width: 150px;
-}
-
-.main {
-    padding: 15px;
-}
-
-.first-desc {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 
-.first-desc p {
-    font-size: 25px;
-    margin-right: 15px;
-}
-
-.second-desc {
+/* SECTION ROW TIMELINE */
+.component {
     display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    align-items: baseline;
-    margin-bottom: 15px;
+    flex: row;
+    justify-content: space-between;
 }
-
-.second-desc p {
-    font-size: 20px;
-    margin-right: 15px;
-}
-
-.third-desc {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-}
-
-.third-desc p {
-    font-size: 20px;
-}
-
-/* SECTION CSS */
-.posting {
-    height: 1000px;
-}
-
-.recommend {}

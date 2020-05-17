@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://bambang:bambang210@cluster-qw7s9.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://ifitera:ifitera@clusterpetgram-3jnst.mongodb.net/test?retryWrites=true&w=majority",
   "jwtSecret": "myscreettoken",
   "githubClientId": "704a37dcfb5c94a08441",
   "githubSecret": "69b3b2a86e0e939a0addaea21a59e4b8325d4487"

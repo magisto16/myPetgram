@@ -12,5 +12,6 @@ myPetgram merupakan aplikasi sosial media untuk hewan peliharaan.
 5. buka localhost:3000 pada browser
 
 ## Dikembangkan oleh
-Angelica Kirana S.D / 14117008
-Annisa Ayu Sabrina
+14117008 - Angelica Kirana S.D
+14117016 - Dhiko JangJaya Putra
+14117113 - Annisa Ayu Sabrina

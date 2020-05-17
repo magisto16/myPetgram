@@ -6,9 +6,7 @@ const ProfileItem = ({
   profile: {
     user: { _id, name, avatar },
     status,
-    company,
-    location,
-    skills
+    location
   }
 }) => {
   return (

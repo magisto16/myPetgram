@@ -81,10 +81,10 @@ const EditProfile = ({
         <div className='form-group'>
           <select className='form-control' name='status' value={status} onChange={e => onChange(e)}>
             <option value='0'>* Select Professional Status</option>
-            <option value='Developer'>Developer</option>
+            <option value='Developer'>orang cantik</option>
             <option value='Junior Developer'>Junior Developer</option>
             <option value='Senior Developer'>Senior Developer</option>
-            <option value='Manager'>Manager</option>
+            <option value='Manager'>Manager baik</option>
             <option value='Student or Learning'>Student or Learning</option>
             <option value='Instructor'>Instructor or Teacher</option>
             <option value='Intern'>Intern</option>
@@ -109,17 +109,17 @@ const EditProfile = ({
           </small>
         </div>
 
-        <div className='form-group'>
+    <div className='form-group'>
           <input
             className='form-control'
-            type='text'
-            placeholder='Website'
+            type='number'
+            placeholder='Jumlah'
             name='website'
             value={website}
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Could be your own or a company website
+            Jumlah hewan peliharaan
           </small>
         </div>
 
@@ -176,6 +176,76 @@ const EditProfile = ({
           />
           <small className='form-text'>Tell us a little about yourself</small>
         </div>
+
+        {/* <div className='my-2'>
+          <button
+            onClick={() => toggleSocialInput(!displaySocialInput)}
+            type='button'
+            className='btn btn-light'
+          >
+            Add Social Network Links
+          </button>
+          <span>Optional</span>
+        </div>
+
+        {displaySocialInput && (
+          <Fragment>
+            <div className='form-group social-input'>
+              <i className='fab fa-twitter fa-2x' />
+              <input
+                type='text'
+                placeholder='Twitter URL'
+                name='twitter'
+                value={twitter}
+                onChange={e => onChange(e)}
+              />
+            </div>
+
+            <div className='form-group social-input'>
+              <i className='fab fa-facebook fa-2x' />
+              <input
+                type='text'
+                placeholder='Facebook URL'
+                name='facebook'
+                value={facebook}
+                onChange={e => onChange(e)}
+              />
+            </div>
+
+            <div className='form-group social-input'>
+              <i className='fab fa-youtube fa-2x' />
+              <input
+                type='text'
+                placeholder='YouTube URL'
+                name='youtube'
+                value={youtube}
+                onChange={e => onChange(e)}
+              />
+            </div>
+
+            <div className='form-group social-input'>
+              <i className='fab fa-linkedin fa-2x' />
+              <input
+                type='text'
+                placeholder='Linkedin URL'
+                name='linkedin'
+                value={linkedin}
+                onChange={e => onChange(e)}
+              />
+            </div>
+
+            <div className='form-group social-input'>
+              <i className='fab fa-instagram fa-2x' />
+              <input
+                type='text'
+                placeholder='Instagram URL'
+                name='instagram'
+                value={instagram}
+                onChange={e => onChange(e)}
+              />
+            </div>
+          </Fragment>
+        )} */}
 
         <Link className='btn btn-light my-1' to='/dashboard'>
           Back

@@ -14,21 +14,23 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
       {loading ? (
         <Spinner />
       ) : (
-          <Fragment>
-            <p className='lead'>
-              <i className='fas fa-user' /> Welcome to the <span className='span-lead'>myPetgram</span>
-            </p>
-            <div className='profiles'>
-              {profiles.length > 0 ? (
-                profiles.map(profile => (
-                  <ProfileItem key={profile._id} profile={profile} />
-                ))
-              ) : (
-                  <h4>No profiles found..</h4>
-                )}
-            </div>
-          </Fragment>
-        )}
+        <Fragment>
+          <h1 className='large text-primary'>Developers</h1>
+          <p className='lead'>
+            <i className='fab fa-connectdevelop' /> Browse and connect with
+            developers
+          </p>
+          <div className='profiles'>
+            {profiles.length > 0 ? (
+              profiles.map(profile => (
+                <ProfileItem key={profile._id} profile={profile} />
+              ))
+            ) : (
+              <h4>No profiles found..</h4>
+            )}
+          </div>
+        </Fragment>
+      )}
     </Fragment>
   );
 };

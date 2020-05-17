@@ -11,5 +11,6 @@ myPetgram merupakan aplikasi sosial media untuk hewan peliharaan.
 4. dari dir myPetgram, mulai app dengan "npm run dev"
 5. buka localhost:3000 pada browser
 
-## API Dokumentasi
-
+## Dikembangkan oleh
+Angelica Kirana S.D / 14117008
+Annisa Ayu Sabrina

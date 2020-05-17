@@ -2,7 +2,7 @@
 
 ## Deskripsi Aplikasi
 
-myPetgram merupakan aplikasi blablabla
+myPetgram merupakan aplikasi sosial media untuk hewan peliharaan.
 
 ## Cara menjalankan
 

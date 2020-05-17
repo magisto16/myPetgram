@@ -52,48 +52,32 @@ const CreateProfile = ({ createProfile, history }) => {
       </p>
 
       <form className='form' onSubmit={e => onSubmit(e)}>
-        <div className='form-group'>
-          <select className='form-control' name='status' value={status} onChange={e => onChange(e)}>
-            <option value='0'>* Select Professional Status</option>
-            <option value='Developer'>Developer</option>
-            <option value='Junior Developer'>Junior Developer</option>
-            <option value='Senior Developer'>Senior Developer</option>
-            <option value='Manager'>Manager</option>
-            <option value='Student or Learning'>Student or Learning</option>
-            <option value='Instructor'>Instructor or Teacher</option>
-            <option value='Intern'>Intern</option>
-            <option value='Other'>Other</option>
-          </select>
-          <small className='form-text'>
-            Give us an idea of where you are at in your career
-          </small>
-        </div>
-
+       
         <div className='form-group'>
           <input
             className='form-control'
             type='text'
-            placeholder='Company'
-            name='company'
+            placeholder='nama hewan'
+            name='namahewan'
             value={company}
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Could be your own company or one you work for
+            masukkan nama hewan
           </small>
         </div>
 
         <div className='form-group'>
           <input
             className='form-control'
-            type='text'
-            placeholder='Website'
+            type='number'
+            placeholder='jumlah hewan'
             name='website'
             value={website}
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            Could be your own or a company website
+            masukkan jumlah hewan
           </small>
         </div>
 
@@ -112,35 +96,6 @@ const CreateProfile = ({ createProfile, history }) => {
         </div>
 
         <div className='form-group'>
-          <input
-            className='form-control'
-            type='text'
-            placeholder='* Skills'
-            name='skills'
-            value={skills}
-            onChange={e => onChange(e)}
-          />
-          <small className='form-text'>
-            Please use comma separated values (eg. HTML,CSS,JavaScript,PHP)
-          </small>
-        </div>
-
-        <div className='form-group'>
-          <input
-            className='form-control'
-            type='text'
-            placeholder='Github Username'
-            name='githubusername'
-            value={githubusername}
-            onChange={e => onChange(e)}
-          />
-          <small className='form-text'>
-            If you want your latest repos and a Github link, include your
-            username
-          </small>
-        </div>
-
-        <div className='form-group'>
           <textarea
             className='form-control'
             placeholder='A short bio of yourself'
@@ -148,7 +103,7 @@ const CreateProfile = ({ createProfile, history }) => {
             value={bio}
             onChange={e => onChange(e)}
           />
-          <small className='form-text'>Tell us a little about yourself</small>
+          <small className='form-text'>Tell us a little about your pet</small>
         </div>
 
         {/* <div className='my-2'>

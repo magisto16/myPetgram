@@ -9,6 +9,7 @@ myPetgram merupakan aplikasi sosial media untuk hewan peliharaan.
 2. masuk ke dir myPetgram, ketikkan "npm install"
 3. masuk ke dir client, ketikkan "npm install"
 4. dari dir myPetgram, mulai app dengan "npm run dev"
+5. buka localhost:3000 pada browser
 
 ## API Dokumentasi
 
